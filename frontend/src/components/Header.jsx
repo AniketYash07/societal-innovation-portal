@@ -14,7 +14,7 @@ export default function Header() {
         right-0
         z-50
         h-[78px]
-        w-[calc(100%-260px)]
+        w-[calc(100%-256px)]
         bg-white
         border-b
         border-slate-200
