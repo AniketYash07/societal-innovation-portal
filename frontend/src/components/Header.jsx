@@ -7,8 +7,22 @@ import {
 
 export default function Header() {
   return (
-    <header className="h-[78px] w-full bg-white border-b border-slate-200 flex items-center px-7">
-
+   <header
+      className="
+        fixed
+        top-0
+        right-0
+        z-50
+        h-[78px]
+        w-[calc(100%-260px)]
+        bg-white
+        border-b
+        border-slate-200
+        flex
+        items-center
+        px-7
+      "
+    >
       {/* Menu */}
       <button
         type="button"
